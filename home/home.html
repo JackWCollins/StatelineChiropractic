@@ -45,19 +45,6 @@
     <div class="row">
       <div class="col s12 m4">
         <div class="icon-block">
-          <div class="headline-icon">
-            <svg viewBox="0 0 24 24">
-              <path fill="#03a9f4" d="M17,8C8,10 5.9,16.17 3.82,21.34L5.71,22L6.66,19.7C7.14,19.87 7.64,20 8,20C19,20 22,3 22,3C21,5 14,5.25 9,6.25C4,7.25 2,11.5 2,13.5C2,15.5 3.75,17.25 3.75,17.25C7,8 17,8 17,8Z" />
-            </svg>
-          </div>
-          <h5 class="center">Lifestyle Wellness</h5>
-
-          <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-        </div>
-      </div>
-
-      <div class="col s12 m4">
-        <div class="icon-block">
           <!--<h2 class="center light-blue-text"><i class="material-icons">group</i></h2>-->
           <div class="headline-icon">
             <svg viewBox="0 0 24 24">
@@ -82,6 +69,19 @@
           <h5 class="center">Caring Doctors</h5>
 
           <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <div class="headline-icon">
+            <svg viewBox="0 0 24 24">
+              <path fill="#03a9f4" d="M17,8C8,10 5.9,16.17 3.82,21.34L5.71,22L6.66,19.7C7.14,19.87 7.64,20 8,20C19,20 22,3 22,3C21,5 14,5.25 9,6.25C4,7.25 2,11.5 2,13.5C2,15.5 3.75,17.25 3.75,17.25C7,8 17,8 17,8Z" />
+            </svg>
+          </div>
+          <h5 class="center">Lifestyle Wellness</h5>
+
+          <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
         </div>
       </div>
     </div>
@@ -113,15 +113,22 @@
   <hr/>
 
   <div class="section">
-    <h5 class="center-align">Our Specialties</h5>
+    <h5 class="center-align">Our Services</h5>
 
     <div class="row services">
-      <div class="col s12 m6 l3" ng-repeat="specialty in specialties">
+      <div class="col s12 m6 l3" ng-repeat="service in services">
         <div class="card-panel hoverable yellow">
-          <div>{{specialty.name}}</div>
+          <div>{{service.name}}</div>
         </div>
       </div>
     </div>
+  </div>
+
+  <hr/>
+
+  <div class="secion">
+    <h5 class="center-align">Walk-Ins Welcome!</h5>
+    <div id="map"></div>
   </div>
 
 

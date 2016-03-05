@@ -19,14 +19,30 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js" async defer></script>
 </head>
 <body ng-app="statelineApp">
+
+  <!-- Dropdown Structure -->
+  <ul id="services-dropdown" class="dropdown-content">
+    <li><a href="#!">Whiplash</a></li>
+    <li><a href="#!">Spinal</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">Work-Related</a></li>
+  </ul>
+  <ul id="forms-dropdown" class="dropdown-content">
+    <li><a href="#!">New Patient</a></li>
+    <li><a href="#!">Informed Consent</a></li>
+    <li><a href="#!">Pediatric Patient</a></li>
+    <li><a href="#!">DOT</a></li>
+  </ul>
+
   <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Stateline Chiropractic</a>
+    <div class="nav-wrapper container"><a id="logo-container" href="#/" class="brand-logo">Stateline Chiropractic</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#">About Us</a></li>
-        <li><a href="pages/services.html">Chiropractic Services</a></li>
-        <li><a href="#">Forms</a></li>
+        <li><a href="#" class="dropdown-button" data-activates="services-dropdown">Chiropractic Services<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="#" class="dropdown-button" data-activates="forms-dropdown">Forms<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a href="#">Contact Us</a></li>
       </ul>
 

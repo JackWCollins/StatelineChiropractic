@@ -16,3 +16,7 @@
 .services .card-panel div {
     min-height: 44px;
 }
+
+#map {
+    height: 400px;
+}

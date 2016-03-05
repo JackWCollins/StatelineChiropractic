@@ -12,3 +12,11 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+nav i.right {
+    margin-left: 0px;
+}
+
+#forms-dropdown {
+    width: 160px !important;
+}
