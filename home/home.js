@@ -17,14 +17,14 @@ statelineApp.controller('HomeController', ['$scope', function($scope) {
   ]
 
   $scope.services = [
-    {name: 'Sports Physicals'},
-    {name: 'Graston'},
-    {name: 'Decompression'},
-    {name: 'Cold Laser'},
-    {name: 'Ultrasound'},
-    {name: 'DOT Physicals'},
-    {name: 'Same Day X-Rays'},
-    {name: 'Orthodics'}
+    {name: 'Sports Physicals', image_path: 'images/commercial/football_player.jpg'},
+    {name: 'Graston', image_path: 'images/graston.jpg'},
+    {name: 'Decompression', image_path: 'images/spine_model.jpg'},
+    {name: 'Cold Laser', image_path: 'images/laser_therapy_back.jpg'},
+    {name: 'Ultrasound', image_path: 'images/ultrasound_neck.jpg'},
+    {name: 'DOT Physicals', image_path: 'images/truck_cabin.jpg'},
+    {name: 'Same Day X-Rays', image_path: 'images/doctor_with_xray.jpg'},
+    {name: 'Orthodics', image_path: 'images/orthopedic_shoe_insoles.jpg'}
   ]
 
   function initializeMap() {

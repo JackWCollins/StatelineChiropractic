@@ -92,7 +92,7 @@
   <div class="section">
     <div class="row">
       <div class="col s12 m6">
-        <img class="materialboxed" data-caption="Dr. Brandon Hatch" width="250" src="http://th01.deviantart.net/fs70/PRE/i/2013/126/1/e/nature_portrait_by_pw_fotografie-d63tx0n.jpg">
+        <img class="rounded headshot" data-caption="Dr. Brandon Hatch" src="images/brandon_hatch_headshot.jpg">
       </div>
 
       <div class="col s12 m6">
@@ -110,17 +110,57 @@
     </div>
   </div>
 
+  <div class="section">
+    <div class="row">
+      <div class="col s12 m6">
+        <h5>Meet Dr. Chad Coffeen</h5>
+        <p>Dr. Brandon Hatch holds a bachelor’s degree and a Doctorate of Chiropractic degree from
+          Western States University where he graduated in 2003.  He has earned a Certified Accident
+          Reconstructionist Certificate from The Spine Research Institute of San Diego where he received a
+          certification in whiplash and brain traumatology.  Dr. Hatch also holds certification in spinal disc
+          decompression therapy from The Kennedy Institute and has served as an adjunct faculty member and
+          clinician for Palmer West Chiropractic College and Western States University.  He is a Certified Medical
+          Examiner and is licensed to perform CDL physical examinations.  Dr. Hatch also speaks Spanish.  He has
+          been in private practice for 13 years.  Dr. Hatch loves helping people restore and revitalize their health
+          by using traditional chiropractic techniques and instrument adjusting.</p>
+      </div>
+
+      <div class="col s12 m6 center-align">
+        <img class="rounded headshot" data-caption="Dr. Chad Coffeen" src="images/chad_headshot.jpg">
+      </div>
+    </div>
+  </div>
+
   <hr/>
 
   <div class="section">
-    <h5 class="center-align">Our Services</h5>
+    <h5 class="center-align">Services</h5>
 
     <div class="row services">
       <div class="col s12 m6 l3" ng-repeat="service in services">
-        <div class="card-panel hoverable yellow">
-          <div>{{service.name}}</div>
+
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" ng-src="{{ service.image_path }}">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">{{ service.name }}<i class="material-icons right">more_vert</i></span>
+            <p><a href="#">Go to page</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
         </div>
+
+        <!--<div class="card-panel hoverable yellow">-->
+          <!--<div>{{service.name}}</div>-->
+        <!--</div>-->
       </div>
+    </div>
+
+    <div class="center-align">
+      No matter your condition, we at Stateline Chiropractic are prepared to help you live a healthier, happier, more comfortable life through holistic chiropractic services.
     </div>
   </div>
 
