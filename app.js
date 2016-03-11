@@ -8,5 +8,9 @@ statelineApp.config(['$routeProvider', function($routeProvider) {
       controller: 'HomeController',
       templateUrl: 'home/home.html'
     })
+    .when('/contact', {
+      controller: 'ContactController',
+      templateUrl: 'contact/contact.html'
+    })
     .otherwise({redirectTo: '/'});
 }]);

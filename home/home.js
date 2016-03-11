@@ -1,7 +1,6 @@
 var statelineApp = angular.module('statelineApp');
 
 statelineApp.controller('HomeController', ['$scope', function($scope) {
-  console.log("Initialized the home controller");
   $('.slider').slider();
   $('.materialboxed').materialbox();
 
