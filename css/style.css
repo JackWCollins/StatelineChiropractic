@@ -17,6 +17,10 @@ nav i.right {
     margin-left: 0px;
 }
 
+nav .button-collapse {
+    float: right;
+}
+
 #forms-dropdown {
     width: 160px !important;
 }
