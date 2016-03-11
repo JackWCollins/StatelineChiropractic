@@ -39,3 +39,8 @@
 .footer-panel {
     margin-top: 45px;
 }
+
+.service-expand {
+    cursor: pointer;
+    margin-left: 0px;
+}

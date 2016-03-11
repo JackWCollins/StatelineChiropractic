@@ -68,7 +68,10 @@
           </div>
           <h5 class="center">Caring Doctors</h5>
 
-          <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          <p class="light">
+            Dr. Hatch, Dr. Coffeen, and all the staff and Stateline Chiropractic are here to make sure you
+            feel healthy, happy, and comfortable throughout your treatment.
+          </p>
         </div>
       </div>
 
@@ -81,7 +84,10 @@
           </div>
           <h5 class="center">Lifestyle Wellness</h5>
 
-          <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+          <p class="light">
+            We at Stateline Chiropractic believe in holistic, natural treatments that help you feel your
+            best every single day.
+          </p>
         </div>
       </div>
     </div>
@@ -158,11 +164,11 @@
             <img class="activator" ng-src="{{ service.image_path }}">
           </div>
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">{{ service.name }}<i class="material-icons right">more_vert</i></span>
-            <p><a href="#">Go to page</a></p>
+            <span class="card-title activator grey-text text-darken-4 truncate">{{ service.name }}</span>
+            <p><a href="#">Go to page</a><i class="material-icons right activator service-expand">keyboard_arrow_up</i></p>
           </div>
           <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">{{ service.name }}<i class="material-icons right">close</i></span>
+            <span class="card-title grey-text text-darken-4">{{ service.name }}<i class="material-icons right">keyboard_arrow_down</i></span>
             <p>Here is some more information about this product that is only revealed once clicked on.</p>
           </div>
         </div>
