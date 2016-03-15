@@ -9,6 +9,10 @@
     height: 50px;
 }
 
+#workers-comp, #cdl-exams, #whiplash {
+    top: 50%;
+}
+
 .services .card-panel {
     text-align: center;
 }

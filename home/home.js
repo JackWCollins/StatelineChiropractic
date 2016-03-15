@@ -19,7 +19,7 @@ statelineApp.controller('HomeController', ['$scope', function($scope) {
     {name: 'Sports Physicals', image_path: 'images/commercial/football_player.jpg'},
     {name: 'Graston', image_path: 'images/graston.jpg'},
     {name: 'Decompression', image_path: 'images/spine_model.jpg'},
-    {name: 'Cold Laser', image_path: 'images/laser_therapy_back.jpg'},
+    {name: 'Massage', image_path: 'images/neck_massage.jpg'},
     {name: 'Ultrasound', image_path: 'images/ultrasound_neck.jpg'},
     {name: 'DOT Physicals', image_path: 'images/truck_cabin.jpg'},
     {name: 'Same Day X-Rays', image_path: 'images/doctor_with_xray.jpg'},
