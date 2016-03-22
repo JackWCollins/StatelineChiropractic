@@ -24,3 +24,7 @@ nav .button-collapse {
 #forms-dropdown {
     width: 160px !important;
 }
+
+#logo-container {
+    font-size: 2.5rem;
+}

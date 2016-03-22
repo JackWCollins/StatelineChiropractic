@@ -16,5 +16,17 @@ statelineApp.config(['$routeProvider', function($routeProvider) {
       controller: 'AboutController',
       templateUrl: 'about/about.html'
     })
+    .when('/instrument_adjusting', {
+      controller: 'InstrumentController',
+      templateUrl: 'instrument_adjusting/instrument_adjusting.html'
+    })
+    .when('/nutrition', {
+      controller: 'NutritionController',
+      templateUrl: 'nutrition/nutrition.html'
+    })
+    .when('/orthotics', {
+      controller: 'OrthoticsController',
+      templateUrl: 'orthotics/orthotics.html'
+    })
     .otherwise({redirectTo: '/'});
 }]);

@@ -16,14 +16,14 @@ statelineApp.controller('HomeController', ['$scope', function($scope) {
   ]
 
   $scope.services = [
-    {name: 'Sports Physicals', image_path: 'images/commercial/football_player.jpg'},
-    {name: 'Graston', image_path: 'images/graston.jpg'},
-    {name: 'Decompression', image_path: 'images/spine_model.jpg'},
-    {name: 'Massage', image_path: 'images/neck_massage.jpg'},
-    {name: 'Ultrasound', image_path: 'images/ultrasound_neck.jpg'},
-    {name: 'DOT Physicals', image_path: 'images/truck_cabin.jpg'},
-    {name: 'Same Day X-Rays', image_path: 'images/doctor_with_xray.jpg'},
-    {name: 'Orthodics', image_path: 'images/orthopedic_shoe_insoles.jpg'}
+    {name: 'Instrument Adjusting', image_path: 'images/graston.jpg', path: '#/instrument_adjusting'},
+    {name: 'DOT Physicals', image_path: 'images/truck_cabin.jpg', path: '#/'},
+    {name: 'Decompression', image_path: 'images/spine_model.jpg', path: '#/'},
+    {name: 'Nutritional Counseling', image_path: 'images/doctor_with_xray.jpg', path: '#/nutrition'},
+    {name: 'Massage', image_path: 'images/neck_massage.jpg', path: '#/'},
+    {name: 'Ultrasound', image_path: 'images/ultrasound_neck.jpg', path: '#/'},
+    {name: 'Sports Physicals', image_path: 'images/commercial/football_player.jpg', path: '#/'},
+    {name: 'Orthotics', image_path: 'images/orthopedic_shoe_insoles.jpg', path: '#/orthotics'}
   ]
 
   function initializeMap() {
