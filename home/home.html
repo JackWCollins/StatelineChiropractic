@@ -172,10 +172,13 @@
 
         <div class="card hoverable">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" ng-src="{{ service.image_path }}">
+            <img class="activator responsive-img" ng-src="{{ service.image_path }}">
           </div>
+          <hr class="light-divider"/>
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4 truncate">{{ service.name }}</span>
+            <div class="title-content">
+              <span class="card-title activator grey-text text-darken-4">{{ service.name }}</span>
+            </div>
             <p><a href="{{ service.path }}">Go to page</a><i class="material-icons right activator service-expand">keyboard_arrow_up</i></p>
           </div>
           <div class="card-reveal">

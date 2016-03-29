@@ -26,7 +26,31 @@
 }
 
 .services .card-image {
-    height: 180px;
+    height: 200px;
+}
+
+.services .card-content {
+    height: 120px;
+}
+
+.services .card-content .title-content {
+    height: 60px;
+}
+
+.services .card-content .card-title {
+    line-height: 30px;
+}
+
+.service-expand {
+    cursor: pointer;
+    margin-left: 0px;
+}
+
+.light-divider {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #e0e0e0;
+    color: #e0e0e0;
 }
 
 .signature {
@@ -38,7 +62,3 @@
     margin-top: 45px;
 }
 
-.service-expand {
-    cursor: pointer;
-    margin-left: 0px;
-}

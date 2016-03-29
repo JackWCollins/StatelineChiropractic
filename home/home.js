@@ -18,7 +18,7 @@ statelineApp.controller('HomeController', ['$scope', function($scope) {
   $scope.services = [
     {name: 'Instrument Adjusting', image_path: 'images/commercial/proadjuster.jpg', path: '#/instrument_adjusting'},
     {name: 'DOT Physicals', image_path: 'images/truck_cabin.jpg', path: '#/'},
-    {name: 'Decompression', image_path: 'images/spine_model.jpg', path: '#/'},
+    {name: 'Decompression', image_path: 'images/spine_model.jpg', path: '#/decompression'},
     {name: 'Nutritional Counseling', image_path: 'images/commercial/fruits.jpg', path: '#/nutrition'},
     {name: 'Massage', image_path: 'images/neck_massage.jpg', path: '#/'},
     {name: 'Ultrasound', image_path: 'images/ultrasound_neck.jpg', path: '#/'},
