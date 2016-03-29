@@ -28,5 +28,9 @@ statelineApp.config(['$routeProvider', function($routeProvider) {
       controller: 'OrthoticsController',
       templateUrl: 'orthotics/orthotics.html'
     })
+    .when('/decompression', {
+      controller: 'DecompressionController',
+      templateUrl: 'decompression/decompression.html'
+    })
     .otherwise({redirectTo: '/'});
 }]);

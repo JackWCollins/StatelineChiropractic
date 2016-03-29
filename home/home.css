@@ -29,12 +29,6 @@
     height: 180px;
 }
 
-.headshot {
-    border-radius: 10%;
-    max-width: 100%;
-    max-height: 400px;
-}
-
 .signature {
     margin-left: 25px;
     font-style: italic;
