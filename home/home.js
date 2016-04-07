@@ -13,18 +13,18 @@ statelineApp.controller('HomeController', ['$scope', function($scope) {
     {name: 'Back, Hip, and Leg Pain'},
     {name: 'Nutritional and Herbal Medicine'},
     {name: 'Se Habla Espanol'}
-  ]
+  ];
 
   $scope.services = [
     {name: 'Instrument Adjusting', image_path: 'images/commercial/proadjuster.jpg', path: '#/instrument_adjusting'},
-    {name: 'DOT Physicals', image_path: 'images/truck_cabin.jpg', path: '#/'},
+    {name: 'DOT Physicals', image_path: 'images/truck_cabin.jpg', path: null},
     {name: 'Decompression', image_path: 'images/spine_model.jpg', path: '#/decompression'},
-    {name: 'Nutritional Counseling', image_path: 'images/commercial/fruits.jpg', path: '#/nutrition'},
-    {name: 'Massage', image_path: 'images/neck_massage.jpg', path: '#/'},
-    {name: 'Ultrasound', image_path: 'images/ultrasound_neck.jpg', path: '#/'},
-    {name: 'Sports Physicals', image_path: 'images/commercial/football_player.jpg', path: '#/'},
+    {name: 'Nutritional Counseling', image_path: 'images/commercial/vitamins_and_fruits.jpg', path: '#/nutrition'},
+    {name: 'Massage', image_path: 'images/neck_massage.jpg', path: null},
+    {name: 'Ultrasound', image_path: 'images/ultrasound_neck.jpg', path: null},
+    {name: 'Sports Physicals', image_path: 'images/commercial/football_player.jpg', path: null},
     {name: 'Orthotics', image_path: 'images/orthopedic_shoe_insoles.jpg', path: '#/orthotics'}
-  ]
+  ];
 
   function initializeMap() {
     var mapDiv = document.getElementById('map');

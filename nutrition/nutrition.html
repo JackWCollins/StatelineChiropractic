@@ -1,14 +1,52 @@
 <div class="section no-pad-bot">
   <div class="container">
     <div class="section">
-      <h5 class="center-align">Nutritional Counseling & Supplements</h5>
+      <h5 class="center-align">Nutritional Supplements</h5>
       <hr/>
     </div>
 
     <div class="section">
+
       <div class="row">
         <div class="col s12">
+          <div class="center-align">
+            <img data-caption="Pro Adjuster" src="images/commercial/chiropractors_blend_banner.jpg">
+          </div>
+          <p class="flow-text">
+            Chiropractor's Blend has dedicated itself for years to helping people and families
+            like yours reach their goals with their health and nutritional needs.  Chiropractor’s
+            Blend formulas are the perfect addition to a wellness centered lifestyle that
+            incorporates regular chiropractic care, fitness, and nourishing food choices.
+          </p>
+          <p>
+            Chiropractor’s Blend uses a combination of GMP Certified, Certified Organic, and pharmaceutical grade
+            manufacturing.  This sets the standard for Chiropractor’s Blend purity and quality, creating award
+            winning nutrition, found at Stateline Chiropractic.
+          </p>
+          <p>
+            Years of combined experience in the international sourcing of raw materials allow Chiropractor’s Blend
+            to deliver consistently high quality components for each product, while still ensuring competitive prices.
+            From its inception, Chiropractor’s Blend has placed a priority on formulating superior nutritional
+            products that meet the high standards of current nutritional science.   There is a Chiropractor’s Blend
+            formula to address almost every need in the spectrum of human nutrition as well as specific health and
+            wellness issues.
+          </p>
+          <p>
+            The staff of Stateline Chiropractic wish you and your family continued health and wellness for years to
+            come! Stop by the clinic to browse our selection of Chiropractor’s blend formulas.
+          </p>
+          <h5 class="center-align"><em>We wish you only the best in life!</em></h5>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="col s12 m6 l6" ng-repeat="supplement in supplements">
+          <div class="card">
+            <div class="card-image">
+              <img ng-src="{{ supplement.imgPath }}" data-caption="{{ supplement.name }}">
+            </div>
+            <div class="card-title">{{ supplement.name }}</div>
+          </div>
         </div>
       </div>
 

@@ -179,12 +179,12 @@
             <div class="title-content">
               <span class="card-title activator grey-text text-darken-4">{{ service.name }}</span>
             </div>
-            <p><a href="{{ service.path }}">Go to page</a><i class="material-icons right activator service-expand">keyboard_arrow_up</i></p>
+            <p><a href="{{ service.path }}" ng-if="service.path">Go to page</a><i class="material-icons right activator service-expand">keyboard_arrow_up</i></p>
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">{{ service.name }}<i class="material-icons right">keyboard_arrow_down</i></span>
             <p>Here is some more information about this product that is only revealed once clicked on.</p>
-            <a href="{{ service.path }}">Go to {{ service.name }}</a>
+            <a href="{{ service.path }}" ng-if="service.path">Go to {{ service.name }}</a>
           </div>
         </div>
 
