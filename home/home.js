@@ -16,14 +16,47 @@ statelineApp.controller('HomeController', ['$scope', function($scope) {
   ];
 
   $scope.services = [
-    {name: 'Instrument Adjusting', image_path: 'images/commercial/proadjuster.jpg', path: '#/instrument_adjusting'},
-    {name: 'DOT Physicals', image_path: 'images/truck_cabin.jpg', path: null},
-    {name: 'Decompression', image_path: 'images/spine_model.jpg', path: '#/decompression'},
-    {name: 'Nutritional Counseling', image_path: 'images/commercial/vitamins_and_fruits.jpg', path: '#/nutrition'},
-    {name: 'Massage', image_path: 'images/neck_massage.jpg', path: null},
-    {name: 'Ultrasound', image_path: 'images/ultrasound_neck.jpg', path: null},
-    {name: 'Sports Physicals', image_path: 'images/commercial/football_player.jpg', path: null},
-    {name: 'Orthotics', image_path: 'images/orthopedic_shoe_insoles.jpg', path: '#/orthotics'}
+    {
+      name: 'Instrument Adjusting',
+      image_path: 'images/commercial/proadjuster.jpg',
+      path: '#/instrument_adjusting',
+      description: 'Our treatments utilize the Pro-Adjuster, DTS Compression, and Palmer method to get you feeling better as fast as possible.'
+    },
+    {
+      name: 'DOT Physicals',
+      image_path: 'images/commercial/truck_cabin.jpg',
+      path: null,
+      description: 'We offer certified DOT Physicals and CDL exams to help you get back to work. Walk-Ins welcome anytime!'},
+    {
+      name: 'Decompression',
+      image_path: 'images/commercial/spine_model.jpg',
+      path: '#/decompression',
+      description: 'Spinal Decompression therapy works by gently stretching the spine and can be an effective treatment for back pain, bulging or herniated disks, worn spinal joins, and more.'},
+    {
+      name: 'Nutritional Supplements',
+      image_path: 'images/commercial/vitamins_and_fruits.jpg',
+      path: '#/nutrition',
+      description: 'We offer custom nutritional counseling and holistic, natural supplements to complement and enhance your diet.'},
+    {
+      name: 'Massage',
+      image_path: 'images/commercial/neck_massage.jpg',
+      path: null,
+      description: 'Our massage therapists are experts in many different types of massages. Stop in for a relaxing and revitalizing session today!'},
+    {
+      name: 'Ultrasound',
+      image_path: 'images/commercial/ultrasound_neck.jpg',
+      path: null,
+      description: 'We use special ultrasound techniques to promote deep heating of affected areas. Ultrasound therapy can help with joint swelling, muscle spasms, and much more.'},
+    {
+      name: 'Sports Physicals',
+      image_path: 'images/commercial/football_player.jpg',
+      path: null,
+      description: 'Active participation in sports can be rough on your body. Our sports physicals will help make sure that you are ready for the next big game!'},
+    {
+      name: 'Orthotics',
+      image_path: 'images/commercial/orthopedic_shoe_insoles.jpg',
+      path: '#/orthotics',
+      description: 'Many people, especially those who spend much of their day on their feet, experience regular leg, foot, and lower back pain. Our custom orthotics will help relieve that pain and make your everyday life more comfortable.'}
   ];
 
   function initializeMap() {
