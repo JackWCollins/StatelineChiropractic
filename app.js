@@ -32,5 +32,9 @@ statelineApp.config(['$routeProvider', function($routeProvider) {
       controller: 'DecompressionController',
       templateUrl: 'decompression/decompression.html'
     })
+    .when('/massage', {
+      controller: 'MassageController',
+      templateUrl: 'massage/massage.html'
+    })
     .otherwise({redirectTo: '/'});
 }]);

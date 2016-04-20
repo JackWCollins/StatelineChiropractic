@@ -21,6 +21,8 @@
   <script src="contact/contact.js"></script>
   <script src="about/about.js"></script>
   <script src="nutrition/nutrition.js"></script>
+  <script src="decompression/decompression.js"></script>
+  <script src="massage/massage.js"></script>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
@@ -28,10 +30,21 @@
 </head>
 <body ng-app="statelineApp">
 
+  <!-- For Facebook Plugin -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
   <!-- Dropdown Structure -->
   <ul id="services-dropdown" class="dropdown-content">
     <li><a href="#/instrument_adjusting">Instrument Adjusting</a></li>
     <li><a href="#/decompression">Spinal Decompression</a></li>
+    <li><a href="#/massage">Massage Therapy</a></li>
     <li><a href="#/nutrition">Nutritional Supplements</a></li>
     <li><a href="#/orthotics">Orthotics</a></li>
   </ul>

@@ -40,7 +40,7 @@ statelineApp.controller('HomeController', ['$scope', function($scope) {
     {
       name: 'Massage',
       image_path: 'images/commercial/neck_massage.jpg',
-      path: null,
+      path: '#/massage',
       description: 'Our massage therapists are experts in many different types of massages. Stop in for a relaxing and revitalizing session today!'},
     {
       name: 'Ultrasound',

@@ -46,6 +46,10 @@
     margin-left: 0px;
 }
 
+blockquote {
+    margin-bottom: 10px;
+}
+
 .light-divider {
     margin-left: 10px;
     margin-right: 10px;
