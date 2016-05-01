@@ -25,5 +25,4 @@ statelineApp.controller('NutritionController', ['$scope', function($scope) {
     {name: 'Probiotics', imgPath: 'images/commercial/supplements/probiotics.jpg'}
   ];
 
-  console.log("Supplements: ", $scope.supplements);
 }]);

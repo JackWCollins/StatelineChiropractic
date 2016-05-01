@@ -1,7 +1,6 @@
 var statelineApp = angular.module('statelineApp');
 
 statelineApp.controller('ContactController', ['$scope', function($scope) {
-  console.log("Initialized the contact controller");
 
   function initializeMap() {
     var mapDiv = document.getElementById('map');

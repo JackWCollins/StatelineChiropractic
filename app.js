@@ -6,35 +6,35 @@ statelineApp.config(['$routeProvider', function($routeProvider) {
   $routeProvider
     .when('/', {
       controller: 'HomeController',
-      templateUrl: 'home/home.html'
+      templateUrl: 'pages/home/home.html'
     })
     .when('/contact', {
       controller: 'ContactController',
-      templateUrl: 'contact/contact.html'
+      templateUrl: 'pages/contact/contact.html'
     })
     .when('/about', {
       controller: 'AboutController',
-      templateUrl: 'about/about.html'
+      templateUrl: 'pages/about/about.html'
     })
     .when('/instrument_adjusting', {
       controller: 'InstrumentController',
-      templateUrl: 'instrument_adjusting/instrument_adjusting.html'
+      templateUrl: 'pages/instrument_adjusting/instrument_adjusting.html'
     })
     .when('/nutrition', {
       controller: 'NutritionController',
-      templateUrl: 'nutrition/nutrition.html'
+      templateUrl: 'pages/nutrition/nutrition.html'
     })
     .when('/orthotics', {
       controller: 'OrthoticsController',
-      templateUrl: 'orthotics/orthotics.html'
+      templateUrl: 'pages/orthotics/orthotics.html'
     })
     .when('/decompression', {
       controller: 'DecompressionController',
-      templateUrl: 'decompression/decompression.html'
+      templateUrl: 'pages/decompression/decompression.html'
     })
     .when('/massage', {
       controller: 'MassageController',
-      templateUrl: 'massage/massage.html'
+      templateUrl: 'pages/massage/massage.html'
     })
     .otherwise({redirectTo: '/'});
 }]);
