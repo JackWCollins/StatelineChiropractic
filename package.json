@@ -7,8 +7,6 @@
   "scripts": {
     "prestart": "npm install",
     "start": "http-server -a localhost -p 8000 -c-1",
-    "empty-aws": "aws s3 rm s3://statelinechiropracticclinic.com --recursive",
-    "load-aws": "aws s3 cp ./ s3://statelinechiropracticclinic.com --recursive --exclude '.DS_Store' --exclude '.git/*' --exclude '.gitignore' --exclude '.idea/*' --exclude 'package.json' --exclude 'README.md'"
     "update-aws": "aws s3 sync ./ s3://statelinechiropracticclinic.com --acl public-read --exclude '.DS_Store' --exclude '.git/*' --exclude '.gitignore' --exclude '.idea/*' --exclude 'package.json' --exclude 'README.md'"
   }
 }
