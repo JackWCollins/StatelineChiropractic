@@ -26,7 +26,7 @@ statelineApp.controller('HomeController', ['$scope', function($scope) {
       name: 'DOT Physicals',
       image_path: 'images/commercial/truck_cabin.jpg',
       path: null,
-      description: 'We offer certified DOT Physicals and CDL exams to help you get back to work. Walk-Ins welcome anytime!'},
+      description: 'We offer same day certified DOT/CDL Physical exams. Walk ins are always welcome!'},
     {
       name: 'Decompression',
       image_path: 'images/commercial/spine_model.jpg',
