@@ -13,6 +13,10 @@
     top: 50%;
 }
 
+#stateline-caption {
+    top: 50%;
+}
+
 .services .card-panel {
     text-align: center;
 }
