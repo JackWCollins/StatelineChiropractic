@@ -1,4 +1,5 @@
-# StatelineChiropractic
+# [Stateline Chiropractic Clinic](http://statelinechiropracticclinic.com/#/)
+
 This website was created for a client that wanted a simple site for their Chiropractic business. I used [MaterializeCSS](http://materializecss.com/) for the layout and CSS.
 
 The site has some Angular sprinkled throughout, but by and large this is just a static website. 
