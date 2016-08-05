@@ -70,3 +70,12 @@ blockquote {
     margin-top: 45px;
 }
 
+.team-cme {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
